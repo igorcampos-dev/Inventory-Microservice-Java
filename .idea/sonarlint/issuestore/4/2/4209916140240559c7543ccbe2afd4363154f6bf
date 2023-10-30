@@ -1,0 +1,5 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïßÅ≥
+o	java:S116
+"SRename this field "order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‡ˇ≠8”ëºË∑1
+x	java:S116"\Rename this field "notification_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‰∞Ã8‘ëºË∑1

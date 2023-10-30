@@ -1,0 +1,7 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÖÑ´úÿÿÿÿ8Ö³ãî·1
+q	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è•Ûì8ç³ãî·1
+p	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯8ç³ãî·1
+z	java:S116"YRename this field "payment_method" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ëˆóıÿÿÿÿ8è³ãî·1
+r	java:S116"VRename this field "card_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»°†š8è³ãî·1
+{	java:S116"ZRename this field "expiration_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÚ¼ûÿÿÿÿ8è³ãî·1

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orderMicroservice" />
+        <module name="paymentMicroservice" />
+        <module name="eureka" />
+        <module name="inventoryMicroservice" />
+        <module name="GatewayCloud" />
+        <module name="notificationMicroservice" />
+        <module name="userMicroservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaserver" target="1.5" />
+      <module name="msAvaliadorCredito" target="17" />
+      <module name="mscartoes" target="17" />
+      <module name="msCartoes" target="17" />
+      <module name="msClientes" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GatewayCloud" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="inventoryMicroservice" options="-parameters" />
+      <module name="io" options="" />
+      <module name="msAvaliadorCredito" options="-parameters" />
+      <module name="msCartoes" options="-parameters" />
+      <module name="msClientes" options="-parameters" />
+      <module name="mscartoes" options="-parameters" />
+      <module name="notificationMicroservice" options="-parameters" />
+      <module name="orderMicroservice" options="-parameters" />
+      <module name="paymentMicroservice" options="-parameters" />
+      <module name="userMicroservice" options="-parameters" />
+    </option>
+  </component>
+</project>
