@@ -23,7 +23,7 @@
 }
 ```
 
-### 🔍 Endpoint PUT /reserve/productId/{productId}/quantityId/{quantityId}:
+### 🔍 Endpoint PUT /reserve/productId/{productId}/quantityId/{quantity}:
 
 
 ### Reserva uma unidade do produto no estoque (ou registra a reserva) quando um pedido é criado no Microserviço de Pedido.

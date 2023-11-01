@@ -21,10 +21,17 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public void save(OrderDTO dto) {
+        //verifica se há produtos disponiveis, se houver,reserve eles
+        //inicia transação de pagamento
+        //inicia o processo de envio
+        //envia notificacao pro cliente
+
         Order order = new Order(dto);
-        order.setStatus(Status.PENDENTE.getValue());
+        order.setStatus(Status.CONFIRMADO.getValue());
 
         Optional.of(orderRepository.save(order)).orElseThrow();
+
+
     }
 
     @Override

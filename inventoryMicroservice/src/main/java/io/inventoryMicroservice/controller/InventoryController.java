@@ -28,17 +28,17 @@ public class InventoryController {
 
 
     @Transactional
-    @PutMapping("/reserve/productId/{productId}/quantityId/{quantityId}")
-    public ResponseEntity<Response> save( @PathVariable("productId") String productId, @PathVariable("quantityId") int quantityId ){
+    @PutMapping("/reserve/productId/{productId}/quantityId/{quantity}")
+    public ResponseEntity<Response> save( @PathVariable("productId") String productId, @PathVariable("quantity") int quantity ){
 
-        inventoryService.reserveProductByIdAndQuantity(productId, quantityId);
+        inventoryService.reserveProductByIdAndQuantity(productId, quantity);
         return ResponseEntity.status(HttpStatus.OK).body(new Response("Salvo!"));
     }
 
     @Transactional
-    @PutMapping("/release/productId/{productId}/quantityId/{quantityId}")
-    public ResponseEntity<Response> updateProducts(@PathVariable("productId") String productId,  @PathVariable("quantityId") int quantityId){
-        inventoryService.cancelReserveProductByIdAndQuantity(productId, quantityId);
+    @PutMapping("/release/productId/{productId}/quantityId/{quantity}")
+    public ResponseEntity<Response> updateProducts(@PathVariable("productId") String productId,  @PathVariable("quantity") int quantity){
+        inventoryService.cancelReserveProductByIdAndQuantity(productId, quantity);
 
         return ResponseEntity.status(HttpStatus.OK).body(new Response("Campos atualizados"));
     }

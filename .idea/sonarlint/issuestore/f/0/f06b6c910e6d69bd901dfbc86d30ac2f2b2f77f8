@@ -1,8 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´ä§’øÿÿÿÿ8º×éï·1
-l
-java:S36559"JCall "order.isPresent()" or "!order.isEmpty()" before accessing the value.(ã´˜üÿÿÿÿ8Ë×éï·1
-Q
-java:S2201"/The return value of "orElseThrow" must be used.(×ıÅŞùÿÿÿÿ8Ğ×éï·1
-L
-java:S2201("/The return value of "orElseThrow" must be used.(Ò€ìÊ8Õ×éï·1

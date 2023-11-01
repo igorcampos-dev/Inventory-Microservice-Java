@@ -13,6 +13,8 @@ recebe informações do usuário:
 
 4.senha.
 
+5.endereço
+
  
 #### Cria um novo perfil de usuário no banco de dados.
 
@@ -24,7 +26,8 @@ recebe informações do usuário:
 "first_name": "João",
 "last_name": "Silva",
 "email": "joao.silva@email.com",
-"password": "senha_segura"
+"password": "senha_segura", 
+"address" : "{cidade},{pais}"
 }
 }
 ```
